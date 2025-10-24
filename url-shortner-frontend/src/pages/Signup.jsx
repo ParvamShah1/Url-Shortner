@@ -28,7 +28,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:8001/user/signup', 
+        'https://url-shortner-backend-vnle.onrender.com/user/signup', 
         formData,
         {
           withCredentials: true

@@ -30,7 +30,7 @@ const URLShortener = () => {
     
     try {
       const res = await api.post("/url", { url });
-      setShortUrl(`http://localhost:8001/url/${res.data.id}`);
+      setShortUrl(`https://url-shortner-backend-vnle.onrender.com/url/${res.data.id}`);
       setUrl("");
     } catch (error) {
       console.error('URL shortening error:', error);
