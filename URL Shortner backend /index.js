@@ -7,7 +7,7 @@ const PORT = 8001;
 const cors = require("cors");
 const cookieParser = require("cookie-parser")
 const Comment = require("./models/comments")
-connectToMongoDB("mongodb://127.0.0.1:27017/url-shortner")
+connectToMongoDB("mongodb+srv://parvashah2121_db_user:sQfIKosrd8Zn52Sk@cluster0.lxijh3e.mongodb.net/?appName=Cluster0")
 .then(() => console.log("MongoDb Connected!"))
 
 app.use(cors({
