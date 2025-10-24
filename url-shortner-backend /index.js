@@ -11,7 +11,7 @@ connectToMongoDB("mongodb+srv://parvashah2121_db_user:sQfIKosrd8Zn52Sk@cluster0.
 .then(() => console.log("MongoDb Connected!"))
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: true,
   credentials: true
 }));
 
